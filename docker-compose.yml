@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  ng8:
+    image: nginx
+    ports:
+      - 80:80
+    volumes:
+      - ./dist/app2:/usr/share/nginx/html
